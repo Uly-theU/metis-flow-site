@@ -10,10 +10,8 @@ export default function Navbar() {
       <div className="max-w-6xl mx-auto px-4 h-16 flex items-center justify-between">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-xl flex items-center justify-center text-white text-sm font-bold" style={{background: 'linear-gradient(135deg, #2563EB 0%, #7C3AED 100%)'}}>
-            M
-          </div>
-          <span className="font-bold text-slate-900 text-base">Métis Flow</span>
+          <img src="/02-logo-icon-chouette-flow.png" alt="Métis Flow" className="h-8 w-auto" />
+          <img src="/01-logo-presentation.png" alt="Métis Flow" className="h-7 w-auto hidden sm:block" />
         </Link>
 
         {/* Desktop nav */}

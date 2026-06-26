@@ -85,6 +85,11 @@ export default function Workflow() {
           ))}
         </div>
 
+        {/* Illustration workflow */}
+        <div className="mt-12 flex justify-center">
+          <img src="/04-illustration-workflow.png" alt="Workflow Métis Flow" className="max-w-2xl w-full rounded-3xl" />
+        </div>
+
         {/* Stats */}
         <div className="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-4">
           {[

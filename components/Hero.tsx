@@ -46,7 +46,7 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right — mockup fiche prospect */}
+          {/* Right — illustration hero + mockup */}
           <div className="relative">
             <div className="card max-w-sm mx-auto lg:ml-auto shadow-2xl">
               {/* Header carte */}
@@ -95,6 +95,10 @@ export default function Hero() {
               </div>
             </div>
 
+            {/* Illustration hero */}
+            <div className="absolute -top-8 -right-8 w-48 opacity-80 pointer-events-none hidden lg:block">
+              <img src="/03-hero-automatisation-pme.png" alt="" className="w-full" />
+            </div>
             {/* Decoration */}
             <div className="absolute -top-4 -right-4 w-24 h-24 rounded-full opacity-20 blur-2xl" style={{background: 'linear-gradient(135deg, #2563EB, #7C3AED)'}}></div>
             <div className="absolute -bottom-4 -left-4 w-32 h-32 rounded-full opacity-10 blur-3xl" style={{background: '#22C55E'}}></div>
